@@ -4,7 +4,10 @@
     <string name="action_settings">Settings</string>
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_detail">Detail</string>
-    <string name="pref_title_location_code">Location Code</string>
+    <string name="pref_location_code_title">Location Code</string>
     <string name="pref_default_location_code">94043</string>
     <string name="pref_location_code_key">pref_location</string>
+    <string name="pref_temperature_units_title">Temperature Units</string>
+    <string name="pref_temperature_units_key">temperature_units_key</string>
+    <string name="pref_temperature_units_default">Celsius</string>
 </resources>
