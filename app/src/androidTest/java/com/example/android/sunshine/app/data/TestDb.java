@@ -15,6 +15,7 @@
  */
 package com.example.android.sunshine.app.data;
 
+import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
@@ -111,16 +112,45 @@ public class TestDb extends AndroidTestCase {
         also make use of the ValidateCurrentRecord function from within TestUtilities.
     */
     public void testLocationTable() {
+        mContext.deleteDatabase(WeatherDbHelper.DATABASE_NAME);
+
         // First step: Get reference to writable database
+        SQLiteDatabase db = new WeatherDbHelper(mContext).getWritableDatabase();
+
         // Create ContentValues of what you want to insert
-        // (you can use the createNorthPoleLocationValues if you wish)
+        ContentValues values = createNorthPoleLocationValues();
+
         // Insert ContentValues into database and get a row ID back
+        long rowId = db.insert(WeatherContract.LocationEntry.TABLE_NAME, null, values);
+        if (rowId == -1)
+            fail("Failure to insert location");
+
         // Query the database and receive a Cursor back
+        Cursor cursor = db.rawQuery("SELECT * FROM " + WeatherContract.LocationEntry.TABLE_NAME, null);
+
         // Move the cursor to a valid database row
+        if (cursor.moveToFirst() == false)
+            fail("No rows inserted to location table");
+
         // Validate data in resulting Cursor with the original ContentValues
-        // (you can use the validateCurrentRecord function in TestUtilities to validate the
-        // query if you like)
+        assertEquals(values.get(WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING), cursor.getString(cursor.getColumnIndex(WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING)));
+        assertEquals(values.get(WeatherContract.LocationEntry.COLUMN_CITY_NAME), cursor.getString(cursor.getColumnIndex(WeatherContract.LocationEntry.COLUMN_CITY_NAME)));
+        assertEquals(values.get(WeatherContract.LocationEntry.COLUMN_COORD_LAT), cursor.getDouble(cursor.getColumnIndex(WeatherContract.LocationEntry.COLUMN_COORD_LAT)));
+        assertEquals(values.get(WeatherContract.LocationEntry.COLUMN_COORD_LONG), cursor.getDouble(cursor.getColumnIndex(WeatherContract.LocationEntry.COLUMN_COORD_LONG)));
+
         // Finally, close the cursor and database
+        cursor.close();
+        db.close();
+    }
+
+    private ContentValues createNorthPoleLocationValues() {
+        ContentValues values = new ContentValues();
+        values.put(WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING, "99705");
+        values.put(WeatherContract.LocationEntry.COLUMN_CITY_NAME, "North Pole");
+        values.put(WeatherContract.LocationEntry.COLUMN_COORD_LAT, 64.7488);
+        values.put(WeatherContract.LocationEntry.COLUMN_COORD_LONG, -147.353);
+
+        return values;
     }
 
     /*
