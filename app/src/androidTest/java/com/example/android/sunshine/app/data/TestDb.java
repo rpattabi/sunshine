@@ -20,6 +20,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.test.AndroidTestCase;
 
+import java.util.Date;
 import java.util.HashSet;
 
 public class TestDb extends AndroidTestCase {
@@ -173,8 +174,9 @@ public class TestDb extends AndroidTestCase {
         long locationRowId = db.insert(WeatherContract.LocationEntry.TABLE_NAME, null, locationValues);
 
         ContentValues weatherValues = new ContentValues();
-        weatherValues.put(WeatherContract.WeatherEntry.COLUMN_LOC_KEY, locationRowId);
-        weatherValues.put(WeatherContract.WeatherEntry.COLUMN_DATE, "04-03-2015");
+        weatherValues.put(WeatherContract.WeatherEntry.COLUMN_LOC_KEY, (int)locationRowId);
+        weatherValues.put(WeatherContract.WeatherEntry.COLUMN_DATE, (int)new Date().getTime()/1000);
+        weatherValues.put(WeatherContract.WeatherEntry.COLUMN_WEATHER_ID, 0);
         weatherValues.put(WeatherContract.WeatherEntry.COLUMN_DEGREES, 32.0);
         weatherValues.put(WeatherContract.WeatherEntry.COLUMN_HUMIDITY, 13.0);
         weatherValues.put(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP, 45.0);
@@ -192,15 +194,16 @@ public class TestDb extends AndroidTestCase {
         assertTrue(cursor.moveToFirst());
 
         // Validate data in resulting Cursor with the original ContentValues
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_LOC_KEY), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_LOC_KEY)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_DATE), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_DATE)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_DEGREES), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_DEGREES)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_HUMIDITY), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_HUMIDITY)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_MIN_TEMP), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_MIN_TEMP)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_PRESSURE), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_PRESSURE)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_LOC_KEY), cursor.getInt(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_LOC_KEY)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_DATE), cursor.getInt(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_DATE)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_WEATHER_ID), cursor.getInt(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_WEATHER_ID)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_DEGREES), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_DEGREES)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_HUMIDITY), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_HUMIDITY)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_MAX_TEMP)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_MIN_TEMP), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_MIN_TEMP)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_PRESSURE), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_PRESSURE)));
         assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_SHORT_DESC), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_SHORT_DESC)));
-        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_WIND_SPEED), cursor.getString(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_WIND_SPEED)));
+        assertEquals(weatherValues.get(WeatherContract.WeatherEntry.COLUMN_WIND_SPEED), cursor.getDouble(cursor.getColumnIndex(WeatherContract.WeatherEntry.COLUMN_WIND_SPEED)));
 
         // Finally, close the cursor and database
         cursor.close();
