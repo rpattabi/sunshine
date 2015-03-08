@@ -38,8 +38,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d41d8ad2-7114-460d-87dc-a84df48df904" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastAdapter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/TestFetchWeatherTask.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/TestFetchWeatherTask.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sunshine.iws" />
@@ -63,71 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestDb.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestDb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2736" max-vertical-offset="3636">
-              <caret line="197" column="8" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WeatherProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4176" max-vertical-offset="6822">
-              <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUriMatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUriMatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-189.0" vertical-offset="0" max-vertical-offset="846">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3798" max-vertical-offset="9072">
-              <caret line="273" column="44" selection-start-line="273" selection-start-column="44" selection-end-line="273" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtilities.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUtilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2484">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentResolver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/content/ContentResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="22639" max-vertical-offset="44532">
-              <caret line="1332" column="0" selection-start-line="1332" selection-start-column="0" selection-end-line="1332" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3852" max-vertical-offset="6822">
+              <caret line="266" column="68" selection-start-line="266" selection-start-column="68" selection-end-line="266" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -136,28 +79,92 @@
       <file leaf-file-name="WeatherContract.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2808">
-              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="2808">
+              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchWeatherTask.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8118" max-vertical-offset="9072">
+              <caret line="523" column="6" selection-start-line="523" selection-start-column="6" selection-end-line="523" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForecastFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1256" max-vertical-offset="2142">
+              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForecastAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/os/AsyncTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8543" max-vertical-offset="11340">
+              <caret line="533" column="53" selection-start-line="533" selection-start-column="53" selection-end-line="533" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proguard-rules.pro" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFetchWeatherTask.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/TestFetchWeatherTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FetchWeatherTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5891648" vertical-offset="0" max-vertical-offset="6750">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteDatabase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/database/sqlite/SQLiteDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="25575" max-vertical-offset="38520">
-              <caret line="1492" column="15" selection-start-line="1492" selection-start-column="15" selection-end-line="1492" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7416">
+              <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -931,7 +938,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/pref_general.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/forecastfragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -940,19 +946,22 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherDbHelper.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestDb.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/DetailActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUriMatcher.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/TestFetchWeatherTask.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
     <option name="y" value="-1028" />
-    <option name="width" value="1312" />
+    <option name="width" value="1291" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1103,15 +1112,9 @@
               <option name="myItemId" value="Sunshine" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sunshine" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1122,14 +1125,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1148,10 +1143,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1196,9 +1187,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1256,76 +1247,7 @@
       <recent name="com.example.android.sunshine.app.MainActivity" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Tests.TestProvider">
-    <configuration default="false" name="testBasicLocationQ...()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testBasicLocationQueries" />
-      <option name="CLASS_NAME" value="com.example.android.sunshine.app.data.TestProvider" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testDeleteRecords()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testDeleteRecords" />
-      <option name="CLASS_NAME" value="com.example.android.sunshine.app.data.TestProvider" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testInsertReadProv...()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testInsertReadProvider" />
-      <option name="CLASS_NAME" value="com.example.android.sunshine.app.data.TestProvider" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Android Tests.testBulkInsert()">
     <configuration default="false" name="testUpdateLocation...()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="3" />
@@ -1335,6 +1257,98 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests in 'com.example.android.sunshine.app'" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="1" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.example.android.sunshine.app" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testAddLocation()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testAddLocation" />
+      <option name="CLASS_NAME" value="com.example.android.sunshine.app.TestFetchWeatherTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestFetchWeatherTask..." type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.android.sunshine.app.TestFetchWeatherTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testBulkInsert()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testBulkInsert" />
+      <option name="CLASS_NAME" value="com.example.android.sunshine.app.data.TestProvider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1469,7 +1483,7 @@
       <option name="CLASS_NAME" value="com.example.android.sunshine.app.data.TestProvider" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1506,20 +1520,22 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Android Tests.TestProvider" />
       <item index="1" class="java.lang.String" itemvalue="Android Application.app" />
-      <item index="2" class="java.lang.String" itemvalue="Android Tests.testBasicLocationQ...()" />
-      <item index="3" class="java.lang.String" itemvalue="Android Tests.testDeleteRecords()" />
-      <item index="4" class="java.lang.String" itemvalue="Android Tests.testInsertReadProv...()" />
-      <item index="5" class="java.lang.String" itemvalue="Android Tests.testUpdateLocation...()" />
+      <item index="2" class="java.lang.String" itemvalue="Android Tests.testUpdateLocation...()" />
+      <item index="3" class="java.lang.String" itemvalue="Android Tests.Tests in 'com.example.android.sunshine.app'" />
+      <item index="4" class="java.lang.String" itemvalue="Android Tests.testAddLocation()" />
+      <item index="5" class="java.lang.String" itemvalue="Android Tests.TestFetchWeatherTask..." />
+      <item index="6" class="java.lang.String" itemvalue="Android Tests.testBulkInsert()" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.testUpdateLocation...()" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.testDeleteRecords()" />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.testInsertReadProv...()" />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.testBasicLocationQ...()" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Android Tests.testBulkInsert()" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.TestFetchWeatherTask..." />
+        <item index="2" class="java.lang.String" itemvalue="Android Tests.testAddLocation()" />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.Tests in 'com.example.android.sunshine.app'" />
+        <item index="4" class="java.lang.String" itemvalue="Android Tests.testUpdateLocation...()" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -1572,7 +1588,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-1028" width="1312" height="1028" extended-state="4" />
+    <frame x="1920" y="-1028" width="1291" height="1028" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1585,16 +1601,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2936311" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2936311" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26581264" sideWeight="0.3822563" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3569061" sideWeight="0.49959448" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35596934" sideWeight="0.49959448" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23149607" sideWeight="0.3822563" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2470238" sideWeight="0.38265306" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23149607" sideWeight="0.61774373" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26581264" sideWeight="0.61664844" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.347207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="765" y="152" width="1055" height="828" />
@@ -1668,46 +1684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="558">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_forecast.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.724138" vertical-offset="0" max-vertical-offset="234">
@@ -1738,13 +1714,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/os/AsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3524" max-vertical-offset="11340">
-          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/widget/Adapter.java">
@@ -1838,20 +1807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="324">
@@ -1884,13 +1839,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1888" max-vertical-offset="5364">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/FullTestSuite.java">
@@ -1939,7 +1887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="1328">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1971,7 +1918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="10008">
           <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1993,16 +1939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestUriMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-189.0" vertical-offset="0" max-vertical-offset="846">
+        <state vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1134">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2808">
-          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -2031,26 +1969,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4176" max-vertical-offset="6822">
-          <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3852" max-vertical-offset="6822">
+          <caret line="266" column="68" selection-start-line="266" selection-start-column="68" selection-end-line="266" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/data/WeatherContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="2808">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/TestFetchWeatherTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/sunshine/app/data/TestProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3798" max-vertical-offset="9072">
-          <caret line="273" column="44" selection-start-line="273" selection-start-column="44" selection-end-line="273" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="8118" max-vertical-offset="9072">
+          <caret line="523" column="6" selection-start-line="523" selection-start-column="6" selection-end-line="523" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/FetchWeatherTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5891648" vertical-offset="0" max-vertical-offset="6750">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7416">
+          <caret line="125" column="48" selection-start-line="125" selection-start-column="48" selection-end-line="125" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-21/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8543" max-vertical-offset="11340">
+          <caret line="533" column="53" selection-start-line="533" selection-start-column="53" selection-end-line="533" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1256" max-vertical-offset="2142">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/sunshine/app/ForecastAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="886">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
